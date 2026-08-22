@@ -22,10 +22,12 @@ public:
 
                 low++;
             }
+           
 
             int length = high - low + 1;
 
             result = max(result, length);
+            
         }
 
         return result;
